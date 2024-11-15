@@ -28,7 +28,7 @@ lbl4.grid(row = 0 , column = 3)
 lbl5.grid(row = 0 , column = 4)
 lbl6.grid(row = 0 , column = 5)
 
-frame.grid()
+frame.pack(expand = 1)
 
 while timer > 0:
     bg1 = rgbToHex((red, green , blue))
